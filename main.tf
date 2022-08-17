@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "roshanorg"
+
+    workspaces {
+      name = "gitactions-demo"
+    }
+  }
+}
+
 provider "aws" {
   region     = var.region
   access_key = var.accesskey
