@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   cloud {
     organization = "roshanorg"
 
@@ -6,7 +6,7 @@ terraform {
       name = "gitactions-demo"
     }
   }
-}
+}*/
 
 provider "aws" {
   region     = var.region
